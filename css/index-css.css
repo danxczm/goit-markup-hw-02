@@ -1,0 +1,92 @@
+/* hero section */
+.hero-section {
+  background-color: #2f303a;
+}
+.hero-section .title {
+  color: var(--white-text-or-bg-color);
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.hero-section .button {
+  background-color: var(--accent-color);
+  color: var(--white-text-or-bg-color);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.8;
+}
+
+/* advantages section */
+
+.advantages-list {
+  list-style-type: none;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+.advantages-list .title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.advantages-list .info {
+  line-height: 1.7;
+  color: var(--secondary-text-color);
+}
+
+/* "what we do" list */
+
+.we-do > ul {
+  list-style-type: none;
+}
+.we-do .title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* team section */
+.team {
+  background-color: var(--secondary-bg-color);
+  /* text-align: center; */ в фигме он прописан в каждой карточке работника, на данном этапе глупо виглядит =)
+  letter-spacing: 0.03em;
+}
+
+.team > ul {
+  list-style-type: none;
+}
+
+.team .title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.team .member {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  /* text-align: center; */
+}
+
+.team .job {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.18;
+  /* text-align: center; */
+}

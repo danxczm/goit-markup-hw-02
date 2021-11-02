@@ -1,0 +1,92 @@
+/* Цвета на странице */
+/* цвет освновного текста #212121; */
+/* вторичный цвет #757575 */
+/* белый цвет color: #FFFFFF; */
+/* цвет акцента #2196F3 */
+
+:root {
+  --secondary-text-color: #757575;
+  --secondary-bg-color: #f5f4fa;
+  --primary-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-text-or-bg-color: #ffffff;
+}
+
+body {
+  background-color: var(--white-text-or-bg-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+}
+
+/* site-nav */
+.logo {
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.logo .first-half {
+  color: var(--accent-color);
+}
+
+.logo .second-half {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link,
+.site-nav .list {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.site-nav .link.current,
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.contacts .link,
+.contacts .list {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  list-style-type: none;
+  text-decoration: none;
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+
+/* site footer */
+footer {
+  background-color: #2f303a;
+}
+
+.logo .white-half {
+  color: var(--white-text-or-bg-color);
+}
+
+.address li,
+.address a {
+  list-style: none;
+  text-decoration: none;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.address .location {
+  color: var(--white-text-or-bg-color);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}

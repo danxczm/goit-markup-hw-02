@@ -1,0 +1,43 @@
+/* projects-nav */
+.filter-nav .buttons {
+  background-color: var(--secondary-bg-color)
+  color: var(--primary-text-color);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.filter-nav .buttons:hover,
+.filter-nav .buttons:focus {
+  background-color: var(--accent-color);
+  color: var(--white-text-or-bg-color);
+}
+
+.filter-nav .filter-names {
+  list-style-type: none;
+}
+
+/* projects list */
+.projects .title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  size: 18px;
+  line-height: 2;
+}
+
+.projects .project-name {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.projects > ul {
+  list-style-type: none;
+}
+
+.projects a {
+  text-decoration: none;
+}
