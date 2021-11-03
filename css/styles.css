@@ -1,0 +1,248 @@
+:root {
+  --secondary-text-color: #757575;
+  --secondary-bg-color: #f5f4fa;
+  --primary-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-text-or-bg-color: #ffffff;
+}
+
+body {
+  background-color: var(--white-text-or-bg-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+}
+
+/* all pages nav */
+.logo {
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.logo .first-half {
+  color: var(--accent-color);
+}
+
+.logo .second-half {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link,
+.site-nav .list {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.site-nav .link.current,
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.contacts .link,
+.contacts .list {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  list-style-type: none;
+  text-decoration: none;
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+
+/* all pages footer */
+.page-footer {
+  background-color: #2F303A;
+}
+
+.logo .white-half {
+  color: var(--white-text-or-bg-color);
+}
+
+.address .list,
+.address .link {
+  list-style: none;
+  text-decoration: none;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.address .location {
+  color: var(--white-text-or-bg-color);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+
+
+
+
+
+
+
+/* "Студия" page CSS */
+
+/* hero section */
+
+.hero-section {
+  background-color: #2f303a;
+}
+
+.hero-section .title {
+  color: var(--white-text-or-bg-color);
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.hero-section .button {
+  background-color: var(--accent-color);
+  color: var(--white-text-or-bg-color);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.8;
+}
+
+.hero-section .button:hover,
+.hero-section .button:focus {
+  background-color: #188CE8;
+}
+
+
+/* advantages section */
+
+.advantages-list {
+  list-style-type: none;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+.advantages-list .title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.advantages-list .info {
+  line-height: 1.7;
+  color: var(--secondary-text-color);
+}
+
+
+/* "what we do" list */
+
+.we-do .title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.we-do .list {
+  list-style-type: none;
+}
+
+/* team section */
+
+.team {
+  background-color: var(--secondary-bg-color);
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.team .list {
+  list-style-type: none;
+}
+
+.team .title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.team .member {
+  color: var(--primary-text-color);
+  font-weight: 500;
+}
+
+.team .position {
+  color: var(--secondary-text-color);
+}
+
+
+
+
+
+
+
+/* "Портфолио" page CSS */
+
+/* projects-nav */
+
+.filter-nav .buttons {
+  background-color: var(--secondary-bg-color)
+  color: var(--primary-text-color);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.filter-nav .buttons:hover,
+.filter-nav .buttons:focus {
+  background-color: var(--accent-color);
+  color: var(--white-text-or-bg-color);
+}
+
+.filter-nav .filter-names {
+  list-style-type: none;
+}
+
+/* projects list */
+
+.projects .title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  size: 18px;
+  line-height: 2;
+}
+
+.projects .project-name {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.projects .list {
+  list-style-type: none;
+}
+
+.projects .project-link {
+  text-decoration: none;
+}
